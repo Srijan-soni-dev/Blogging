@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap');
+:root{
+--font1 : "Baloo Bhaina 2", sans-serif;
+--main-bg-color : brown;
+}
+.max-width1{
+ max-width: 80vw;
+}
+
+
+.max-width2{
+    max-width: 60vw;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+padding: 0px 20px;
+padding-top: 3px;
+font-size: 16px;
+border: 2px solid black;
+border-radius: 6px;
+font-family: var(--font1);
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+ .btn:hover{
+    color: white;
+        background-color: var(--main-bg-color);
+ }
+
+
+.form-input{
+padding: 0px 5px;
+padding-top: 3px;
+font-size: 16px;
+border: 2px solid black;
+border-radius: 4px;
+margin: 0 13px;
+font-family: var(--font1);
+
+}
+
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.form-box input, textarea{
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.main-img{
+     height: 445px;
+    overflow: hidden;
+    margin-top: 14px;
+    opacity: 0.30;
+}
